@@ -1,6 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .coming-soon{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    color: white;
+    font-size: 50px;
+    background: rgb(114,102,255);
+    background: linear-gradient(90deg, rgba(114,102,255,1) 0%, rgba(114,102,255,1) 0%, rgba(102,126,255,1) 100%);
 }
+
+@media only screen and (max-width: 600px) {
+    .coming-soon{
+        font-size: 20px;
+    }
+    
+}
+  
